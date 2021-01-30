@@ -26,7 +26,12 @@ h1{
     font-family: sans-serif;
  }
 
-
+hr{
+    border:dotted #EAF6F6 6px;
+    border-bottom:none;
+    margin:100px auto;
+    width:4%;
+}
 
  #copyright{
     font-family: sans-serif;
@@ -49,18 +54,22 @@ h1{
 }
 
 .contact-button {
-    border-radius: 20px;
-    color: #FAFCFF;
-    font-family: Arial;
-    font-size: 1rem;
-    font-weight: 100;
-    padding: 10px;
     background-color: #11999E;
-    text-decoration: none;
+    border-radius: 8px;
+    color: #FAFCFF;
     cursor: pointer;
+    font-family: Arial;
+    font-size: 20;
+    padding: 10px;
+    text-decoration: none;
+
     text-align: center;
  }
 
+ .contact-message{
+    width:40%;
+    margin:auto;
+ }
 
 .chillies-pic{
     float:right;
